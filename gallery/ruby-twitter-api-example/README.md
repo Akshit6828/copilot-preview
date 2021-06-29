@@ -66,7 +66,7 @@ Before you start, ceate a new read+write app on the [Twitter Developer Portal](h
   ```
 
 
-- Type `# Publish a Tweet with an image` on the final and press <kbd>CTRL</kbd> + <kbd>RETURN</kbd> to view suggestions. Accept the following suggestions:
+- Type `# Publish a Tweet with an image` on the final and press <kbd>CTRL</kbd> + <kbd>RETURN</kbd> to view suggestions. Accept the following suggestion:
 
   ```ruby
   # Publish a tweet with an image
