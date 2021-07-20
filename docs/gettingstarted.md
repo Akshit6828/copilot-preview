@@ -167,8 +167,10 @@ search for the descriptive name used below.
    Search for `editor.action.inlineSuggest.hide`
 
 * Show next inline suggestion: `Alt + ]` or `Option + ]`.
+   Search for `editor.action.inlineSuggest.showNext`
 
 * Show previous inline suggestion: `Alt + [` or `Option + [`.
+   Search for `editor.action.inlineSuggest.showPrevious`
 
 * Trigger inline suggestion: `Alt + \` or `Option + \`.
 
