@@ -1,13 +1,16 @@
 # Getting Started with GitHub Copilot
 
-- [Installing the Visual Studio Code extension](#installing)
-- [Seeing your first suggestion](#first-suggestion)
-- [Choosing alternate suggestions](#alternates)
-- [Getting more suggestions](#more-suggestions)
-- [Generating code from a comment](#code-from-comment)
-- [Using a framework](#using-a-framework)
-- [More examples](#more-examples)
-- [Configuring GitHub Copilot](#settings)
+- [Getting Started with GitHub Copilot](#getting-started-with-github-copilot)
+  - [1. Installing the Visual Studio Code extension](#1-installing-the-visual-studio-code-extension)
+  - [2. Seeing your first suggestion](#2-seeing-your-first-suggestion)
+  - [3. Choosing alternate suggestions](#3-choosing-alternate-suggestions)
+  - [4. Getting more suggestions](#4-getting-more-suggestions)
+  - [5. Generating code from a comment](#5-generating-code-from-a-comment)
+  - [6. Using a framework](#6-using-a-framework)
+  - [7. More examples](#7-more-examples)
+  - [8. Keyboard shortcuts](#8-keyboard-shortcuts)
+  - [9. Configuring GitHub Copilot](#9-configuring-github-copilot)
+  - [10. Deactivating Github Copilot](#10-deactivating-github-copilot)
 
 <a name="installing"></a>
 ## 1. Installing the Visual Studio Code extension
@@ -201,3 +204,24 @@ and navigate to the GitHub Copilot extension section. You can set the following 
   Configure the languages that are enabled for GitHub Copilot.
   This string is of the form<br /> 
   `{ "python": true, "markdown": false, ...}`.
+
+## 10. Deactivating Github Copilot
+
+ * **Using Visual Studio Code settings tab** <br>
+   To deactivate Github Copilot, open a [Visual Studio Code settings](https://code.visualstudio.com/docs/getstarted/settings) tab and type `Github Copilot` in search bar.
+
+   <img alt="Sign into GitHub to use GitHub Copilot" src="resources/github-copilot-settings.png" width="700"></img>
+
+   * Click on `Edit in settings.json` under **Github > Copilot:Enable** to open the settings file.<br>
+   * You can deactivate the extension by setting ` "*":` to `false` inside `github.copilot.enable":` to disable Github Copilot globally.<br>
+   * Set the desired language to `true` to enable the extension for that language.<br><br>
+
+   <img alt="Sign into GitHub to use GitHub Copilot" src="resources/settings-enable-false.png" width="300"></img>
+
+* **Using Status Bar Icon** <br> 
+  Click on the icon in status bar as shown below:<br><br>
+
+   <img alt="Sign into GitHub to use GitHub Copilot" src="resources/disable-github-using-statusbar.png" width="400"></img>
+   
+   * Click on the `Globally` button to deactivate the extension globally.
+   * Click on the `For markdown` button (may be different in your case according to the extension of the file in your current workspace) to deactivate the Github Copilot for any particular type of file.
