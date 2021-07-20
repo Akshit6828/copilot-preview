@@ -153,8 +153,32 @@ this repository for the latest examples from us and the community.
 
 Got an example of your own? We welcome you to share it on our [Discussions](https://github.com/github/copilot-preview/discussions) forum.
 
+<a name="shortcuts"></a>
+## 8. Keyboard shortcuts
+
+The following lists the most common keyboard shortcuts relevant for GitHub
+Copilot. If you wish to rebind them, use the Keyboard Shortcuts editor and
+search for the descriptive name used below.
+
+* Accept an inline suggestion: `Tab`.
+   Search for `editor.action.inlineSuggest.commit`
+
+* Dismiss an inline suggestion: `Esc`.
+   Search for `editor.action.inlineSuggest.hide`
+
+* Show next inline suggestion: `Alt + ]` or `Option + ]`.
+
+* Show previous inline suggestion: `Alt + [` or `Option + [`.
+
+* Trigger inline suggestion: `Alt + \` or `Option + \`.
+
+* Open Copilot (10 suggestions in separate pane): `Ctrl + Enter`.
+
+* Copilot toggle on/off: _No default shortcut_.
+
+
 <a name="settings"></a>
-## 8. Configuring GitHub Copilot
+## 9. Configuring GitHub Copilot
 
 To configure GitHub Copilot's basic settings, open a [Visual Studio Code settings](https://code.visualstudio.com/docs/getstarted/settings) tab, 
 and navigate to the GitHub Copilot extension section. You can set the following settings in the dialog:
